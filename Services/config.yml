@@ -1,0 +1,14 @@
+database:
+    username: "SIPEC"
+    password: "sipec_testsm.2019"
+    sysdba: "SIPEC"
+    host: >
+            (DESCRIPTION =
+                    (ADDRESS = (PROTOCOL = TCP)
+                               (HOST = 192.168.51.249)
+                               (PORT = 1540)
+                    )
+                    (CONNECT_DATA = (SERVER = DEDICATED)
+                                    (SID = testsm)
+                    )
+            )
